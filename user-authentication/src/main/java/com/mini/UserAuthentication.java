@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MiniManagementApplication {
+public class UserAuthentication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MiniManagementApplication.class, args);
+		SpringApplication.run(UserAuthentication.class, args);
 	}
 
 }
