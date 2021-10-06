@@ -1,6 +1,5 @@
 package com.mini.controller;
 
-import com.mini.model.Song;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -30,41 +29,6 @@ public class HomeController {
         return "admin";
     }
 
-
-    @RequestMapping("/songs")
-    public String songs(){
-        return "songs/songs";
-    }
-
-
-//  Song landing page
-@GetMapping("/songs")
-public String songsPage(){
-    return
-            "songs/songs";
-}
-
-
-    //Load the form
-    @GetMapping("/songs/form")
-    public String loadFormPage(Model model) {
-        model.addAttribute("song", new Song());
-        return "songs/form";
-    }
-
-
-    //Process form data
-    @PostMapping("/songs/form")
-    public String loadFormPage(@Valid @ModelAttribute Song song, Model model,  BindingResult result) {
-       if(result.hasErrors()){
-           return "songs/songs";
-       }
-       else{
-           model.addAttribute("song", song);
-           return "songs/songs";
-       }
-
-    }
 
 
 
