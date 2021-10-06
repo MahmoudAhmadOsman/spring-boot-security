@@ -1,6 +1,6 @@
-package com.mini.repository;
+package com.auth.repository;
 
-import com.mini.model.User;
+import com.auth.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {

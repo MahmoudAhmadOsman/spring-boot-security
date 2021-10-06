@@ -1,8 +1,8 @@
-package com.mini.service;
+package com.auth.service;
 
-import com.mini.model.Role;
-import com.mini.model.User;
-import com.mini.repository.UserRepository;
+import com.auth.model.Role;
+import com.auth.model.User;
+import com.auth.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

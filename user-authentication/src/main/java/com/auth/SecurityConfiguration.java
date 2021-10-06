@@ -1,7 +1,7 @@
-package com.mini;
+package com.auth;
 
-import com.mini.repository.UserRepository;
-import com.mini.service.SSUserDetailsService;
+import com.auth.repository.UserRepository;
+import com.auth.service.SSUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

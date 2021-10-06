@@ -1,4 +1,4 @@
-package com.mini.model;
+package com.auth.model;
 
 import javax.persistence.*;
 import java.util.Collection;
