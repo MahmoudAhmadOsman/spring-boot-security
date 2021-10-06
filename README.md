@@ -1,12 +1,12 @@
-## Spring Boot & Angular 10   CRUD RESTAPI
+## Spring Boot User Authentication
 
  Built  with [Spring](https://spring.io/projects/spring-boot) Boot, JPA, Thymeleaf and MYSQL.
-## Used Technologies :+1: 
+## Used Technologies : 
  * Spring Boot
  * thymeleaf
  * MYSQL
  * JPA
- * Bootstrap 4
+ * Bootstrap 3
 
 
 ## Clone
@@ -14,7 +14,7 @@
 To clone this project use this command
 
 ```bash
-$ git clone 
+$ git clone https://github.com/MahmoudAhmadOsman/spring-boot-user-authentication.git
 ```
 
 ### My Website
