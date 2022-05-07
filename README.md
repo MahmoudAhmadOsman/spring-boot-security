@@ -9,12 +9,10 @@
  * Bootstrap 3
 
 
-## Clone
 
-To clone this project use this command
 
 ```bash
-$ git clone https://github.com/MahmoudAhmadOsman/spring-boot-user-authentication.git
+  Spring boot security project.
 ```
 
 ### My Website
@@ -22,6 +20,6 @@ $ git clone https://github.com/MahmoudAhmadOsman/spring-boot-user-authentication
 Please, visit my website
 [www.mahmoudosman.com](http://www.mahmoudosman.com/)
 
-### Social Media
+### LinkedIn 
 
 LinkedIn Profile Link: [LinkedIn](https://www.linkedin.com/in/mahmoudaoman/) 
