@@ -1,7 +1,7 @@
-## Spring Boot User Authentication
+## Spring Boot Security Project 
 
  Built  with [Spring](https://spring.io/projects/spring-boot) Boot, JPA, Thymeleaf and MYSQL.
-## Used Technologies : 
+## Used Technology: 
  * Spring Boot
  * thymeleaf
  * MYSQL
